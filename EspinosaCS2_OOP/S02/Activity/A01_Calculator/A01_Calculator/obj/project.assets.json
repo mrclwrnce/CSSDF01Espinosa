@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\EspinosaCS2_OOP\\S02\\Activity\\A01_Calculator\\A01_Calculator\\A01_Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S02\\Activity\\A01_Calculator\\A01_Calculator\\A01_Calculator.csproj",
       "projectName": "A01_Calculator",
-      "projectPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\EspinosaCS2_OOP\\S02\\Activity\\A01_Calculator\\A01_Calculator\\A01_Calculator.csproj",
+      "projectPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S02\\Activity\\A01_Calculator\\A01_Calculator\\A01_Calculator.csproj",
       "packagesPath": "C:\\Users\\MarcLawrenceEspinosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\EspinosaCS2_OOP\\S02\\Activity\\A01_Calculator\\A01_Calculator\\obj\\",
+      "outputPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S02\\Activity\\A01_Calculator\\A01_Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MarcLawrenceEspinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",

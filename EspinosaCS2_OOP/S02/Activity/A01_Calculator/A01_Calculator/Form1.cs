@@ -95,7 +95,7 @@ namespace A01_Calculator
 
         private void Operator(object sender, EventArgs e)
         {
-            Button btn = ( Button )sender;
+            Button btn = (Button)sender;
 
             if (double.TryParse(textDisplay.Text, out firstNumber))
             {
@@ -104,6 +104,46 @@ namespace A01_Calculator
 
                 textEquation.Text = firstNumber.ToString() + " " + operation + " ";
             }
+        }
+
+        private void Total(object sender, EventArgs e)
+        {
+            double secondNumber;
+
+            double result = 0;
+
+            if (!double.TryParse(textDisplay.Text, out secondNumber))
+                return;
+
+            if (operation == "+")
+            {
+                result = firstNumber + secondNumber;
+
+            }
+
+            else if (operation == "-")
+            {
+                result = firstNumber - secondNumber;
+            }
+
+            else if(operation == "*")
+            {
+                result = firstNumber * secondNumber;
+            }
+            else if(operation == "/")
+            {
+                if (secondNumber == 0)
+                {
+                    MessageBox.Show("Cannot divide by zero");
+                    return;
+
+                }
+                result = firstNumber / secondNumber;
+            }
+
+            textDisplay.Text = result.ToString();
+            textEquation.Text += "= " + result.ToString();
+            isNewEntry = true;
         }
     }
 }

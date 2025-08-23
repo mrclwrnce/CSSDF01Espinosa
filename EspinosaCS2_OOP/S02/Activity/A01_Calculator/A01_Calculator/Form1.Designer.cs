@@ -93,7 +93,7 @@
             btnDot.TabIndex = 3;
             btnDot.Text = ".";
             btnDot.UseVisualStyleBackColor = false;
-            btnDot.Click += Operator;
+            btnDot.Click += Load_Key;
             // 
             // btnPlus
             // 
@@ -117,7 +117,7 @@
             btnEqual.TabIndex = 5;
             btnEqual.Text = "=";
             btnEqual.UseVisualStyleBackColor = false;
-            btnEqual.Click += Operator;
+            btnEqual.Click += Total;
             // 
             // btnMinus
             // 

@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = A01_Calculator
-build_property.ProjectDir = C:\Users\MarcLawrenceEspinosa\Documents\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\
+build_property.ProjectDir = C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "UBZzhp34u84=",
+  "dgSpecHash": "XtAtE6iNhoo=",
   "success": true,
   "projectFilePath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S02\\Activity\\A01_Calculator\\A01_Calculator\\A01_Calculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MarcLawrenceEspinosa\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.8\\system.configuration.configurationmanager.9.0.8.nupkg.sha512",
+    "C:\\Users\\MarcLawrenceEspinosa\\.nuget\\packages\\system.data.oledb\\9.0.8\\system.data.oledb.9.0.8.nupkg.sha512",
+    "C:\\Users\\MarcLawrenceEspinosa\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.8\\system.diagnostics.eventlog.9.0.8.nupkg.sha512",
+    "C:\\Users\\MarcLawrenceEspinosa\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.8\\system.diagnostics.performancecounter.9.0.8.nupkg.sha512",
+    "C:\\Users\\MarcLawrenceEspinosa\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.8\\system.security.cryptography.protecteddata.9.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

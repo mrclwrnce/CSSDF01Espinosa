@@ -1,3 +1,4 @@
+using System.Data.OleDb;
 using System.Runtime.CompilerServices;
 
 namespace A01_Calculator
@@ -13,6 +14,8 @@ namespace A01_Calculator
         private int originalWidth;
         double firstNumber = 0;
         string operation = "";
+
+        string dbPath = @"C:\LocalDB\Calculator.mdb";
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -143,7 +146,31 @@ namespace A01_Calculator
 
             textDisplay.Text = result.ToString();
             textEquation.Text += "= " + result.ToString();
+
             isNewEntry = true;
         }
+        private void insertEquationToDatabase(string equationText)
+        {
+            string connStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={dbPath};";
+
+            string insertQuery = "INSERT INTO tbl_Calculator_History (Equation) VALUES (@equation)";
+
+            using (OleDbConnection conn = new OleDbConnection(connStr))
+            {
+                try
+                {
+                    conn.Open();
+                    OleDbCommand insertCmd = new OleDbCommand(insertQuery, conn);
+                    insertCmd.Parameters.AddWithValue("@equation", equationText);
+                    insertCmd.ExecuteNonQuery();
+                    conn.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Insert error: " + ex.Message);
+                }
+            }
+        }
+        
     }
 }

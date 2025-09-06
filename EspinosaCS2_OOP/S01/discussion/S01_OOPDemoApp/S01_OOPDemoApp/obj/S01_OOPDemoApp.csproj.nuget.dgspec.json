@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RhianJaredBoncajes\\Documents\\Boncajes-CS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\S01_OOPDemoApp.csproj": {}
+    "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\S01_OOPDemoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RhianJaredBoncajes\\Documents\\Boncajes-CS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\S01_OOPDemoApp.csproj": {
+    "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\S01_OOPDemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RhianJaredBoncajes\\Documents\\Boncajes-CS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\S01_OOPDemoApp.csproj",
+        "projectUniqueName": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\S01_OOPDemoApp.csproj",
         "projectName": "S01_OOPDemoApp",
-        "projectPath": "C:\\Users\\RhianJaredBoncajes\\Documents\\Boncajes-CS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\S01_OOPDemoApp.csproj",
-        "packagesPath": "C:\\Users\\RhianJaredBoncajes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RhianJaredBoncajes\\Documents\\Boncajes-CS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\obj\\",
+        "projectPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\S01_OOPDemoApp.csproj",
+        "packagesPath": "C:\\Users\\MarcLawrenceEspinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\discussion\\S01_OOPDemoApp\\S01_OOPDemoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RhianJaredBoncajes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MarcLawrenceEspinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

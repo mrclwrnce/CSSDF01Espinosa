@@ -37,7 +37,9 @@ namespace A01_Calculator
 
         private void btnClear_Click(object sender, EventArgs e)
         {
+            textDisplay.Text = "0";
 
+            isNewEntry = true;
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
@@ -130,11 +132,11 @@ namespace A01_Calculator
                 result = firstNumber - secondNumber;
             }
 
-            else if(operation == "*")
+            else if (operation == "*")
             {
                 result = firstNumber * secondNumber;
             }
-            else if(operation == "/")
+            else if (operation == "/")
             {
                 if (secondNumber == 0)
                 {
@@ -216,6 +218,27 @@ namespace A01_Calculator
                 }
             }
         }
-        
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            textDisplay.Text = "0";
+
+            textEquation.Text = "";
+
+            isNewEntry = true;
+        }
+
+        private void btnErase_Click(object sender, EventArgs e)
+        {
+            if (textDisplay.Text.Length > 0)
+            {
+                textDisplay.Text = textEquation.Text.Substring(0, textDisplay.Text.Length - 1);
+
+                if (textEquation.Text.Length > 0)
+                {
+                    textEquation.Text = textEquation.Text.Substring(0, textEquation.Text.Length - 1);
+                }
+            }
+        }
     }
 }

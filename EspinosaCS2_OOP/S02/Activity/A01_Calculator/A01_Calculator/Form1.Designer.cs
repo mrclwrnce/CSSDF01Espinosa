@@ -225,6 +225,7 @@
             btnErase.TabIndex = 17;
             btnErase.Text = "⌫";
             btnErase.UseVisualStyleBackColor = false;
+            btnErase.Click += btnErase_Click;
             // 
             // btnDelete
             // 
@@ -236,6 +237,7 @@
             btnDelete.TabIndex = 16;
             btnDelete.Text = "C";
             btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnClear
             // 

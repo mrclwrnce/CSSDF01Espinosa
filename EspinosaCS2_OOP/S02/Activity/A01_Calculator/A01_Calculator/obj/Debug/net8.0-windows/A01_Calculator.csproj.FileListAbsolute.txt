@@ -31,3 +31,14 @@ C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Acti
 C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\obj\Debug\net8.0-windows\A01_Calculator.pdb
 C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\obj\Debug\net8.0-windows\A01_Calculator.genruntimeconfig.cache
 C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\obj\Debug\net8.0-windows\ref\A01_Calculator.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\System.Data.OleDb.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.OleDb.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\obj\Debug\net8.0-windows\A01_Calculator.csproj.AssemblyReference.cache
+C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S02\Activity\A01_Calculator\A01_Calculator\obj\Debug\net8.0-windows\A01_Calc.72B55352.Up2Date

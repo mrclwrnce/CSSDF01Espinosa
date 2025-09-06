@@ -1,0 +1,14 @@
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\bin\Debug\net8.0\S01_OOPDemoApp.exe
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\bin\Debug\net8.0\S01_OOPDemoApp.deps.json
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\bin\Debug\net8.0\S01_OOPDemoApp.runtimeconfig.json
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\bin\Debug\net8.0\S01_OOPDemoApp.dll
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\bin\Debug\net8.0\S01_OOPDemoApp.pdb
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\S01_OOPDemoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\S01_OOPDemoApp.AssemblyInfoInputs.cache
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\S01_OOPDemoApp.AssemblyInfo.cs
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\S01_OOPDemoApp.csproj.CoreCompileInputs.cache
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\S01_OOPDemoApp.dll
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\refint\S01_OOPDemoApp.dll
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\S01_OOPDemoApp.pdb
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\S01_OOPDemoApp.genruntimeconfig.cache
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S01\discussion\S01_OOPDemoApp\S01_OOPDemoApp\obj\Debug\net8.0\ref\S01_OOPDemoApp.dll

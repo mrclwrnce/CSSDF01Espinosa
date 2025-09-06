@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61CDB3FB-89F7-4AB2-9457-AF761F59395D}|S01_OOPActivity_Win\\S01_OOPActivity_Win.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s01\\activity\\s01_oopactivity_win\\s01_oopactivity_win\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61CDB3FB-89F7-4AB2-9457-AF761F59395D}|S01_OOPActivity_Win\\S01_OOPActivity_Win.csproj|solutionrelative:s01_oopactivity_win\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61CDB3FB-89F7-4AB2-9457-AF761F59395D}|S01_OOPActivity_Win\\S01_OOPActivity_Win.csproj|C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\s01_oopactivity_win\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61CDB3FB-89F7-4AB2-9457-AF761F59395D}|S01_OOPActivity_Win\\S01_OOPActivity_Win.csproj|solutionrelative:s01_oopactivity_win\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61CDB3FB-89F7-4AB2-9457-AF761F59395D}|S01_OOPActivity_Win\\S01_OOPActivity_Win.csproj|C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\s01_oopactivity_win\\addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61CDB3FB-89F7-4AB2-9457-AF761F59395D}|S01_OOPActivity_Win\\S01_OOPActivity_Win.csproj|solutionrelative:s01_oopactivity_win\\addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61CDB3FB-89F7-4AB2-9457-AF761F59395D}|S01_OOPActivity_Win\\S01_OOPActivity_Win.csproj|C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\s01_oopactivity_win\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61CDB3FB-89F7-4AB2-9457-AF761F59395D}|S01_OOPActivity_Win\\S01_OOPActivity_Win.csproj|solutionrelative:s01_oopactivity_win\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\S01_OOPActivity_Win\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "S01_OOPActivity_Win\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\S01_OOPActivity_Win\\Form1.Designer.cs",
+              "RelativeToolTip": "S01_OOPActivity_Win\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T03:38:42.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Addition.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\S01_OOPActivity_Win\\Addition.cs",
+              "RelativeDocumentMoniker": "S01_OOPActivity_Win\\Addition.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\S01_OOPActivity_Win\\Addition.cs",
+              "RelativeToolTip": "S01_OOPActivity_Win\\Addition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T03:34:50.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\S01_OOPActivity_Win\\Form1.cs",
+              "RelativeDocumentMoniker": "S01_OOPActivity_Win\\Form1.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\S01_OOPActivity_Win\\Form1.cs",
+              "RelativeToolTip": "S01_OOPActivity_Win\\Form1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvyEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T03:31:08.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\S01_OOPActivity_Win\\Form1.cs",
+              "RelativeDocumentMoniker": "S01_OOPActivity_Win\\Form1.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S01\\activity\\S01_OOPActivity_Win\\S01_OOPActivity_Win\\Form1.cs [Design]",
+              "RelativeToolTip": "S01_OOPActivity_Win\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T03:23:47.172Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

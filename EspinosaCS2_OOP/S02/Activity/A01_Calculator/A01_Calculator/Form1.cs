@@ -1,5 +1,6 @@
 using System.Data.OleDb;
 using System.Runtime.CompilerServices;
+using System.Text;
 
 namespace A01_Calculator
 {
@@ -72,7 +73,7 @@ namespace A01_Calculator
             }
 
             int dotCount = textDisplay.Text.Count(c => c == '.');
-            if (dotCount > 1)
+            if (dotCount >= 1)
             {
                 if (btn.Text != ".")
                 {
@@ -147,11 +148,13 @@ namespace A01_Calculator
             textDisplay.Text = result.ToString();
             textEquation.Text += "= " + result.ToString();
 
+            InsertEquationToDatabase(textEquation.Text);
+            DisplayDBtoTB();
             isNewEntry = true;
         }
-        private void insertEquationToDatabase(string equationText)
+        private void InsertEquationToDatabase(string equationText)
         {
-            string connStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={dbPath};";
+            string connStr = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dbPath};";
 
             string insertQuery = "INSERT INTO tbl_Calculator_History (Equation) VALUES (@equation)";
 
@@ -168,6 +171,48 @@ namespace A01_Calculator
                 catch (Exception ex)
                 {
                     MessageBox.Show("Insert error: " + ex.Message);
+                }
+
+            }
+        }
+        private void DisplayDBtoTB()
+        {
+            string dbPath = @"C:\LocalDB\Calculator.mdb";
+
+            string connStr = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dbPath};";
+
+            string query = "SELECT Equation FROM tbl_Calculator_History order by ID desc";
+
+            using (OleDbConnection conn = new OleDbConnection(connStr))
+            {
+                try
+                {
+                    conn.Open();
+
+                    OleDbCommand cmd = new OleDbCommand(query, conn);
+
+                    OleDbDataReader reader = cmd.ExecuteReader();
+
+                    StringBuilder sb = new StringBuilder();
+
+                    while (reader.Read())
+                    {
+                        string equation = reader["Equation"].ToString();
+
+                        sb.AppendLine(equation);
+                    }
+
+                    textHistory.Multiline = true;
+                    textHistory.ScrollBars = ScrollBars.Vertical;
+                    textHistory.Text = sb.ToString();
+
+                    reader.Close();
+                    conn.Close();
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
                 }
             }
         }

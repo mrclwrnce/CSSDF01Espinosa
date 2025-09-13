@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\crud\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\crud\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\crud\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\crud\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|c:\\users\\marclawrenceespinosa\\documents\\cssdf01espinosa\\espinosacs2_oop\\s03\\activity\\espinosa_ems\\espinosa_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185624F-B3AF-4D8D-8E18-18495DAB9FDA}|Espinosa_EMS\\Espinosa_EMS.csproj|solutionrelative:espinosa_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\Form1.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\Form1.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\Form1.cs",
+              "RelativeToolTip": "Espinosa_EMS\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T03:43:17.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "connection.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\CRUD\\connection.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\CRUD\\connection.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\CRUD\\connection.cs",
+              "RelativeToolTip": "Espinosa_EMS\\CRUD\\connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T03:33:26.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CRUD.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\CRUD\\CRUD.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\CRUD\\CRUD.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\CRUD\\CRUD.cs",
+              "RelativeToolTip": "Espinosa_EMS\\CRUD\\CRUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T03:25:25.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\Form1.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\Form1.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\Form1.cs [Design]",
+              "RelativeToolTip": "Espinosa_EMS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T23:44:28.748Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMasterData.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\frmMasterData.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\frmMasterData.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\frmMasterData.cs [Design]",
+              "RelativeToolTip": "Espinosa_EMS\\frmMasterData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:51:16.904Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAddEmployee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\frmAddEmployee.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\frmAddEmployee.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\frmAddEmployee.cs [Design]",
+              "RelativeToolTip": "Espinosa_EMS\\frmAddEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T02:17:14.298Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Common.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\Common.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\Common.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\Common.cs",
+              "RelativeToolTip": "Espinosa_EMS\\Common.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T00:30:34.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmAddEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\frmAddEmployee.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\frmAddEmployee.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\frmAddEmployee.cs",
+              "RelativeToolTip": "Espinosa_EMS\\frmAddEmployee.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIAwwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T02:19:27.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmMasterData.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\frmMasterData.cs",
+              "RelativeDocumentMoniker": "Espinosa_EMS\\frmMasterData.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\CSSDF01Espinosa\\EspinosaCS2_OOP\\S03\\Activity\\Espinosa_EMS\\Espinosa_EMS\\frmMasterData.cs",
+              "RelativeToolTip": "Espinosa_EMS\\frmMasterData.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:54:59.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -19,6 +19,9 @@ namespace Espinosa_EMS
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            lblFullName.Text = LoginPage.fullname;
+            lblAge.Text = LoginPage.Age;
+            lblSection.Text = LoginPage.Section;
             this.Text = string.Empty;
             this.ControlBox = false;
             this.DoubleBuffered = true;
@@ -94,6 +97,16 @@ namespace Espinosa_EMS
         }
 
         private void pnlStage_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }

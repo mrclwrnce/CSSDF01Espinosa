@@ -12,7 +12,7 @@ namespace Espinosa_EMS.CRUD
         //>>> Insert Constring here!
 
         static string dbPath = @"C:\LOCALDB\EMS.mdb";
-        public static string conString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dbPath};";
+        public static string conString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={dbPath};";
         //private static string conString = " Data Source = tcp:127.2.3.4; Initial Catalog = TestDB; User ID = saa; Password= Password=P@ssw0rd;";
 
 

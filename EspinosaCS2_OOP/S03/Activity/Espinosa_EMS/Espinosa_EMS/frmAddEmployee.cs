@@ -24,28 +24,64 @@ namespace Espinosa_EMS
 
         private void btnInsertUpdate_Click(object sender, EventArgs e)
         {
-            bool dtg_addresquestor = false;
-            string EMS_data = string.Empty;
-            EMS_data = "Select * from [tblEmployeeData] where [EmployeeNumber] = '" + tbEmployeeNumber.Text + "'";
-            dtg_addresquestor = CRUD.CRUD.RETRIEVESINGLE(EMS_data);
-            if (dtg_addresquestor == true)
+            if (tbEmailAddress.Text.Contains("@firstasia.edu.ph") == true)
             {
-                MessageBox.Show("This account '" + tbRequestorName.Text + "' is already exist.", "Not found.", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                tbRequestorName.Text = "";
-                tbEmailAddress.Text = "";
-                tbLocalNumber.Text = "";
+                bool dtg_addrequestor = false;
+                string EMS_data = string.Empty;
+                EMS_data = "Select * from [tblEmployeeData] where [EmployeeNumber] = '" + tbEmployeeNumber.Text + "'";
+                dtg_addrequestor = CRUD.CRUD.RETRIEVESINGLE(EMS_data);
+                if (dtg_addrequestor == true)
+                {
+                    DialogResult result = MessageBox.Show("This account '" + tbRequestorName.Text + "' is already exist.", "",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        string update_requestor = "UPDATE [tblEmployeeData] " +
+                             "SET [RequestorName] = '" + tbRequestorName.Text + "', " +
+                             "[RequestorEmail] = '" + tbEmailAddress.Text + "', " +
+                             "[Section] = '" + cmbSection.Text + "', " +
+                             "[LocalNumber] = '" + tbLocalNumber.Text + "' " +
+                             "WHERE [EmployeeNumber] = '" + tbEmployeeNumber.Text + "'";
+
+                        CRUD.CRUD.CUD(update_requestor);
+
+                        MessageBox.Show("Updated Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        this.Close();
+                    }
+                    else
+                    {
+                        tbRequestorName.Text = "";
+                        tbEmailAddress.Text = "";
+                        tbLocalNumber.Text = "";
+                        this.Close();
+                    }
+
+                }
+                else
+                {
+                    string add_requestor = "Insert into [tblEmployeeData] ([EmployeeNumber], [RequestorName],[RequestorEmail],[Section],[LocalNumber]) values ('" + tbEmployeeNumber.Text + "','" + tbRequestorName.Text + "','" + tbEmailAddress.Text + "','" + cmbSection.Text + "', '" + tbLocalNumber.Text + "')";
+                    CRUD.CRUD.CUD(add_requestor);
+                    MessageBox.Show("Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
             }
             else
             {
-                string add_requestor = "Insert into [tblEmployeesData] ([EmployeeNumber], [RequestorName], [RequestorEmail], [Section], [LocalNumber] values ('" + tbEmployeeNumber.Text + "','" + tbRequestorName.Text + "','" + tbEmailAddress.Text + "','" + cmbSection.Text + "', '" + tbLocalNumber.Text + "')";
-                CRUD.CRUD.CUD(add_requestor);
-                MessageBox.Show("Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Please check the email format", "Invalid Email", MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
+                return;
             }
         }
-
         private void frmAddEmployee_Load(object sender, EventArgs e)
         {
-
+            tbEmployeeNumber.Text = frmMasterData.employeeNumber;
+            tbRequestorName.Text = frmMasterData.requestorName;
+            tbEmailAddress.Text = frmMasterData.requestorEmail;
+            tbLocalNumber.Text = frmMasterData.localNumber;
+            cmbSection.Text = frmMasterData.section;
+            
         }
     }
 }

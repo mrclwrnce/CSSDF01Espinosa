@@ -12,9 +12,11 @@ namespace Espinosa_EMS
 {
     public partial class frmAddEmployee : Form
     {
-        public frmAddEmployee()
+        private string mode;
+        public frmAddEmployee(string mode)
         {
             InitializeComponent();
+            this.mode = mode;
         }
 
         private void lblEmailAddress_Click(object sender, EventArgs e)
@@ -32,7 +34,7 @@ namespace Espinosa_EMS
                 dtg_addrequestor = CRUD.CRUD.RETRIEVESINGLE(EMS_data);
                 if (dtg_addrequestor == true)
                 {
-                    DialogResult result = MessageBox.Show("This account '" + tbRequestorName.Text + "' is already exist.", "",
+                    DialogResult result = MessageBox.Show("This account '" + tbRequestorName.Text + "' is already exist. Do you wish to update the account?", "",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
 
                     if (result == DialogResult.Yes)
@@ -49,6 +51,7 @@ namespace Espinosa_EMS
                         MessageBox.Show("Updated Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         this.Close();
+                        
                     }
                     else
                     {
@@ -73,14 +76,21 @@ namespace Espinosa_EMS
                 MessageBoxIcon.Error);
                 return;
             }
+            
         }
         private void frmAddEmployee_Load(object sender, EventArgs e)
         {
-            tbEmployeeNumber.Text = frmMasterData.employeeNumber;
-            tbRequestorName.Text = frmMasterData.requestorName;
-            tbEmailAddress.Text = frmMasterData.requestorEmail;
-            tbLocalNumber.Text = frmMasterData.localNumber;
-            cmbSection.Text = frmMasterData.section;
+
+            if (mode == "addEmployee")
+            {
+
+                tbEmployeeNumber.Text = frmMasterData.employeeNumber;
+                tbRequestorName.Text = frmMasterData.requestorName;
+                tbEmailAddress.Text = frmMasterData.requestorEmail;
+                tbLocalNumber.Text = frmMasterData.localNumber;
+                cmbSection.Text = frmMasterData.section;
+
+            }
             
         }
     }

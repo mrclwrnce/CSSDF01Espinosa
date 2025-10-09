@@ -31,15 +31,15 @@ namespace Espinosa_EMS
             requestorName = dgvMasterdata.Rows[e.RowIndex].Cells["RequestorName"].Value.ToString();
             requestorEmail = dgvMasterdata.Rows[e.RowIndex].Cells["RequestorEmail"].Value.ToString();
             localNumber = dgvMasterdata.Rows[e.RowIndex].Cells["LocalNumber"].Value.ToString();
-            section = dgvMasterdata.Rows[e.RowIndex].Cells["LocalNumber"].Value.ToString();
+            section = dgvMasterdata.Rows[e.RowIndex].Cells["Section"].Value.ToString();
         }
 
         public static string employeeNumber, requestorName, requestorEmail, localNumber, section;
         private void btnEditData_Click(object sender, EventArgs e)
         {
+
             
-            
-            frmAddEmployee editdata = new frmAddEmployee();
+            frmAddEmployee editdata = new frmAddEmployee("addEmployee");
             editdata.ShowDialog();
 
         }

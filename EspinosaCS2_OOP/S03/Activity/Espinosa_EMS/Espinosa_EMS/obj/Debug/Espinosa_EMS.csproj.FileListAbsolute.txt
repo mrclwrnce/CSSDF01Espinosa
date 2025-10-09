@@ -11,3 +11,17 @@ C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Acti
 C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.frmMasterData.resources
 C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.frmAddEmployee.resources
 C:\Users\MarcLawrenceEspinosa\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.LoginPage.resources
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\bin\Debug\Espinosa_EMS.exe.config
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\bin\Debug\Espinosa_EMS.exe
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\bin\Debug\Espinosa_EMS.pdb
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.exe.config
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.Form1.resources
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.frmAddEmployee.resources
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.frmMasterData.resources
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.LoginPage.resources
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.Properties.Resources.resources
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.csproj.GenerateResource.cache
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.exe
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.pdb

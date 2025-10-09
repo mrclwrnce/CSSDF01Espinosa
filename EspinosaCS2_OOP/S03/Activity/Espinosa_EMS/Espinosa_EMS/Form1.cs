@@ -92,7 +92,8 @@ namespace Espinosa_EMS
 
         private void btnAddEmployee_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmAddEmployee());
+            OpenChildForm(new frmAddEmployee("normalLoad"));
+            
 
         }
 

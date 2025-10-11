@@ -41,6 +41,7 @@ namespace Espinosa_EMS
             
             frmAddEmployee editdata = new frmAddEmployee("addEmployee");
             editdata.ShowDialog();
+            CRUD.CRUD.RETRIEVEDTG(dgvMasterdata, "Select * From [tblEmployeeData] ");
 
         }
     }

@@ -42,6 +42,7 @@
             this.lblEmailAddress = new System.Windows.Forms.Label();
             this.lblRequestorName = new System.Windows.Forms.Label();
             this.lblEmployeeNumber = new System.Windows.Forms.Label();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.pnlSubtitle.SuspendLayout();
             this.gbEmployeeInput.SuspendLayout();
             this.SuspendLayout();
@@ -69,6 +70,7 @@
             // 
             // gbEmployeeInput
             // 
+            this.gbEmployeeInput.Controls.Add(this.btnDelete);
             this.gbEmployeeInput.Controls.Add(this.btnInsertUpdate);
             this.gbEmployeeInput.Controls.Add(this.cmbSection);
             this.gbEmployeeInput.Controls.Add(this.tbLocalNumber);
@@ -197,6 +199,19 @@
             this.lblEmployeeNumber.TabIndex = 0;
             this.lblEmployeeNumber.Text = "Employee Number:";
             // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.Bisque;
+            this.btnDelete.FlatAppearance.BorderSize = 0;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Location = new System.Drawing.Point(240, 157);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(118, 23);
+            this.btnDelete.TabIndex = 11;
+            this.btnDelete.Text = "DELETE";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // frmAddEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -232,5 +247,6 @@
         private System.Windows.Forms.TextBox tbRequestorName;
         private System.Windows.Forms.TextBox tbEmployeeNumber;
         private System.Windows.Forms.Button btnInsertUpdate;
+        private System.Windows.Forms.Button btnDelete;
     }
 }

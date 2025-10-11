@@ -25,3 +25,4 @@ C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_E
 C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.exe
 C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.pdb
+C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Espinosa_EMS\Espinosa_EMS\obj\Debug\Espinosa_EMS.frmSettings.resources

@@ -84,5 +84,26 @@ namespace Espinosa_EMS
         {
             Match();    
         }
+
+        private void btnDownload_Click(object sender, EventArgs e)
+        {
+            ExportDgv.ExportToExcel(dgvUsers, "ExportedData_" + DateTime.Now.ToString("MM-dd-yyyy"));
+        }
+
+        private void dgvUsers_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string exportPath = @"C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Employee_Details_Template.xlsx";
+            string SavePath = @"C:\Users\ADMIN\Documents\CSSDF01Espinosa\EspinosaCS2_OOP\S03\Activity\Employee_Details_Template.xlsx";
+
+            ExportCellFromDgv.ExportFromTemplate(exportPath,
+        SavePath,
+        "B1", dgvUsers.Rows[e.RowIndex].Cells["FullName"].Value,
+        "H1", dgvUsers.Rows[e.RowIndex].Cells["Section"].Value,
+        "B2", dgvUsers.Rows[e.RowIndex].Cells["Username"].Value,
+        "H2", dgvUsers.Rows[e.RowIndex].Cells["Age"].Value,
+        "A32", LoginPage.fullname,
+        "A33", DateTime.Now.ToString("yyyy-MM-dd")
+    );
+        }
     }
 }

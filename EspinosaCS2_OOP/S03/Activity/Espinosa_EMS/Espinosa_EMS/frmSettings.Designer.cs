@@ -48,6 +48,7 @@
             this.txtFullName = new System.Windows.Forms.TextBox();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.tpageSectionRegistration = new System.Windows.Forms.TabPage();
+            this.btnDownload = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tpageUserRegistration.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
@@ -67,6 +68,7 @@
             // 
             // tpageUserRegistration
             // 
+            this.tpageUserRegistration.Controls.Add(this.btnDownload);
             this.tpageUserRegistration.Controls.Add(this.dgvUsers);
             this.tpageUserRegistration.Controls.Add(this.panel1);
             this.tpageUserRegistration.Location = new System.Drawing.Point(4, 22);
@@ -85,6 +87,7 @@
             this.dgvUsers.Name = "dgvUsers";
             this.dgvUsers.Size = new System.Drawing.Size(586, 391);
             this.dgvUsers.TabIndex = 1;
+            this.dgvUsers.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsers_CellDoubleClick);
             // 
             // panel1
             // 
@@ -185,9 +188,9 @@
             this.lblNumber.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumber.Location = new System.Drawing.Point(19, 306);
             this.lblNumber.Name = "lblNumber";
-            this.lblNumber.Size = new System.Drawing.Size(48, 13);
+            this.lblNumber.Size = new System.Drawing.Size(63, 13);
             this.lblNumber.TabIndex = 7;
-            this.lblNumber.Text = "Number";
+            this.lblNumber.Text = "✔ Number";
             // 
             // lblMatch
             // 
@@ -195,9 +198,9 @@
             this.lblMatch.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMatch.Location = new System.Drawing.Point(19, 288);
             this.lblMatch.Name = "lblMatch";
-            this.lblMatch.Size = new System.Drawing.Size(39, 13);
+            this.lblMatch.Size = new System.Drawing.Size(54, 13);
             this.lblMatch.TabIndex = 6;
-            this.lblMatch.Text = "Match";
+            this.lblMatch.Text = "✔ Match";
             // 
             // txtConfirmPassword
             // 
@@ -264,6 +267,18 @@
             this.tpageSectionRegistration.Text = "Section Registration";
             this.tpageSectionRegistration.UseVisualStyleBackColor = true;
             // 
+            // btnDownload
+            // 
+            this.btnDownload.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDownload.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDownload.Location = new System.Drawing.Point(709, 3);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(75, 23);
+            this.btnDownload.TabIndex = 2;
+            this.btnDownload.Text = "Download";
+            this.btnDownload.UseVisualStyleBackColor = true;
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
+            // 
             // frmSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -304,5 +319,6 @@
         private System.Windows.Forms.Label lblNumber;
         private System.Windows.Forms.Label lblMatch;
         private System.Windows.Forms.Button btnExecute;
+        private System.Windows.Forms.Button btnDownload;
     }
 }

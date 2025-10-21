@@ -36,11 +36,12 @@
             this.pnlSidemenu = new System.Windows.Forms.Panel();
             this.btnAddEmployee = new System.Windows.Forms.Button();
             this.btnMasterData = new System.Windows.Forms.Button();
-            this.pnlStage = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblFullName = new System.Windows.Forms.Label();
-            this.lblSection = new System.Windows.Forms.Label();
             this.lblAge = new System.Windows.Forms.Label();
+            this.lblSection = new System.Windows.Forms.Label();
+            this.lblFullName = new System.Windows.Forms.Label();
+            this.pnlStage = new System.Windows.Forms.Panel();
+            this.btnSettings = new System.Windows.Forms.Button();
             this.pnlTitleBar.SuspendLayout();
             this.pnlSidemenu.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -120,6 +121,7 @@
             // pnlSidemenu
             // 
             this.pnlSidemenu.BackColor = System.Drawing.Color.NavajoWhite;
+            this.pnlSidemenu.Controls.Add(this.btnSettings);
             this.pnlSidemenu.Controls.Add(this.btnAddEmployee);
             this.pnlSidemenu.Controls.Add(this.btnMasterData);
             this.pnlSidemenu.Controls.Add(this.panel1);
@@ -164,15 +166,6 @@
             this.btnMasterData.UseVisualStyleBackColor = false;
             this.btnMasterData.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pnlStage
-            // 
-            this.pnlStage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlStage.Location = new System.Drawing.Point(224, 55);
-            this.pnlStage.Name = "pnlStage";
-            this.pnlStage.Size = new System.Drawing.Size(604, 442);
-            this.pnlStage.TabIndex = 2;
-            this.pnlStage.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlStage_Paint);
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.lblAge);
@@ -185,17 +178,16 @@
             this.panel1.Size = new System.Drawing.Size(224, 73);
             this.panel1.TabIndex = 2;
             // 
-            // lblFullName
+            // lblAge
             // 
-            this.lblFullName.AutoSize = true;
-            this.lblFullName.BackColor = System.Drawing.Color.NavajoWhite;
-            this.lblFullName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFullName.Location = new System.Drawing.Point(10, 5);
-            this.lblFullName.Name = "lblFullName";
-            this.lblFullName.Size = new System.Drawing.Size(110, 25);
-            this.lblFullName.TabIndex = 0;
-            this.lblFullName.Text = "FULL NAME";
-            this.lblFullName.Click += new System.EventHandler(this.label1_Click);
+            this.lblAge.AutoSize = true;
+            this.lblAge.BackColor = System.Drawing.Color.NavajoWhite;
+            this.lblAge.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAge.Location = new System.Drawing.Point(14, 48);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(32, 17);
+            this.lblAge.TabIndex = 2;
+            this.lblAge.Text = "AGE";
             // 
             // lblSection
             // 
@@ -209,16 +201,43 @@
             this.lblSection.Text = "SECTION";
             this.lblSection.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // lblAge
+            // lblFullName
             // 
-            this.lblAge.AutoSize = true;
-            this.lblAge.BackColor = System.Drawing.Color.NavajoWhite;
-            this.lblAge.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAge.Location = new System.Drawing.Point(14, 48);
-            this.lblAge.Name = "lblAge";
-            this.lblAge.Size = new System.Drawing.Size(32, 17);
-            this.lblAge.TabIndex = 2;
-            this.lblAge.Text = "AGE";
+            this.lblFullName.AutoSize = true;
+            this.lblFullName.BackColor = System.Drawing.Color.NavajoWhite;
+            this.lblFullName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFullName.Location = new System.Drawing.Point(10, 5);
+            this.lblFullName.Name = "lblFullName";
+            this.lblFullName.Size = new System.Drawing.Size(110, 25);
+            this.lblFullName.TabIndex = 0;
+            this.lblFullName.Text = "FULL NAME";
+            this.lblFullName.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // pnlStage
+            // 
+            this.pnlStage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlStage.Location = new System.Drawing.Point(224, 55);
+            this.pnlStage.Name = "pnlStage";
+            this.pnlStage.Size = new System.Drawing.Size(604, 442);
+            this.pnlStage.TabIndex = 2;
+            this.pnlStage.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlStage_Paint);
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnSettings.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSettings.FlatAppearance.BorderSize = 0;
+            this.btnSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSalmon;
+            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSettings.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.Location = new System.Drawing.Point(0, 169);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(224, 48);
+            this.btnSettings.TabIndex = 3;
+            this.btnSettings.Text = "Settings";
+            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSettings.UseVisualStyleBackColor = false;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
             // Form1
             // 
@@ -255,6 +274,7 @@
         private System.Windows.Forms.Label lblFullName;
         private System.Windows.Forms.Label lblAge;
         private System.Windows.Forms.Label lblSection;
+        private System.Windows.Forms.Button btnSettings;
     }
 }
 

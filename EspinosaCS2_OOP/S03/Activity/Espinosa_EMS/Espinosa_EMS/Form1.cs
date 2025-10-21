@@ -111,5 +111,10 @@ namespace Espinosa_EMS
         {
 
         }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmSettings());
+        }
     }
 }

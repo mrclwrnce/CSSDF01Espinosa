@@ -91,7 +91,19 @@ namespace Espinosa_EMS
                 cmbSection.Text = frmMasterData.section;
 
             }
+            else
+            {
+                btnDelete.Hide();
+            }
             
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string delete_requestor = "DELETE FROM [tblEmployeeData] WHERE [EmployeeNumber] = '" + tbEmployeeNumber.Text + "'";
+            CRUD.CRUD.CUD(delete_requestor);
+            MessageBox.Show("Deleted Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
         }
     }
 }
